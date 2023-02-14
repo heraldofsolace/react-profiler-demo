@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Header } from '@/components';
 import { useQuery } from '@/hooks';
 import { ALL_NEWS_API } from '@/services/api';
 import MoviesNewsGroup from './MoviesNewsGroup';
@@ -21,7 +20,6 @@ const MoviesNews = () => {
 
   return (
     <div>
-      <Header />
       <MoviesNewsGroup items={moviesNews} />
     </div>
   );
