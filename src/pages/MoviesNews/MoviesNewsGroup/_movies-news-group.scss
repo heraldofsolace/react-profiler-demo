@@ -1,0 +1,8 @@
+.movies-news {
+  &__wrapper {
+    padding: 50px 70px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+  }
+}

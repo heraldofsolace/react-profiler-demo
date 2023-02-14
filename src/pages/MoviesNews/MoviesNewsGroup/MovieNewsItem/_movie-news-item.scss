@@ -1,0 +1,28 @@
+.movie-news {
+  &__body {
+    cursor: pointer;
+
+    &:hover {
+      & .movie-news__image {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__image {
+    transition: 0.3s all ease-out;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 400px;
+
+    & > img {
+      object-fit: cover;
+    }
+  }
+
+  &__publish-date {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(247, 247, 15);
+  }
+}
