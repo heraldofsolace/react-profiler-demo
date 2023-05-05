@@ -1,7 +1,9 @@
 import React from 'react';
 import './_header.scss';
+import sleep from "../../services/sleep";
 
 const Header = () => {
+  sleep(10)
   return (
     <div className="header">
       <img
